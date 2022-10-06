@@ -320,7 +320,7 @@ footer {
 
 
 /* Small screens to medium */
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .first-row, .second-row {
         flex-direction: column;
         align-items: center;
@@ -378,6 +378,15 @@ footer {
 
 /* Medium screens and up */
 @media (min-width: 768px) and (max-width: 1280px) {
+
+    .navbar-nav {
+        justify-content: flex-end;
+        background-color: var(--nav-bg-color);
+        position: relative;
+        width: 100%;
+        opacity: 0.99;
+    }
+
     .first-row, .second-row {
         flex-direction: row;
     }
