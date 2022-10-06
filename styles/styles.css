@@ -70,7 +70,7 @@ a.nav-link:hover {
 
 .about-content {
     padding: 4em;
-    height: 500px;
+    height: 550px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -188,6 +188,7 @@ a.nav-link:hover {
     color: ghostwhite;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
+    white-space: nowrap;
 }
 
 .project-heading {
