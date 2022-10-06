@@ -64,13 +64,13 @@ a.nav-link:hover {
 .about {
     color: ghostwhite;
     background-color: var(--sectionA-bg-color);
-    height: 430px;
+    height: 500px;
     position: relative;
 }
 
 .about-content {
     padding: 4em;
-    height: 550px;
+    height: 450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -81,10 +81,6 @@ a.nav-link:hover {
     width: 600px;
     margin: 0 auto;
     padding-bottom: 2em;
-}
-
-.about-btns {
-    padding-bottom: 7em;
 }
 
 .about-btns a {
