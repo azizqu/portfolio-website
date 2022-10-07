@@ -385,6 +385,7 @@ footer {
         position: relative;
         width: 100%;
         opacity: 0.99;
+        align-items: center;
     }
 
     .first-row, .second-row {
@@ -393,6 +394,7 @@ footer {
 
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 2em;
 
 
     }
